@@ -23,7 +23,7 @@
   font-weight: 400;
 
   color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  background-color: #0E1823;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -51,12 +51,11 @@
 @media only screen and (min-width: 768px) {
   .container {
     max-width: 768px;
-    /* padding: 0 32px; */
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1280px) {
   .container {
-    max-width: 1200px;
+    max-width: 1280px;
   }
 }
