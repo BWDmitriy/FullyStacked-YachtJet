@@ -79,33 +79,37 @@ width: 100%;
             margin-left: auto;
         }        
 }
-.hero-button {
-    border: none;
+.hero-container {
+    display: block;
+}
+.hero-link {
     border-radius: 15px;
     background: #1B414B;
-    padding: 14px 32px;
     color: #FBFBFB;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.28;
     letter-spacing: 0.02em;
-    cursor: pointer;
-    display: block;
-    margin: auto;
-    min-width: 141px;
+    max-width: 141px;
     height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+
 } 
-.hero-button:hover {
+.hero-link:hover {
     background-color: #FBFBFB;
     color: #1B414B;
 }
-.hero-button:focus {
+.hero-link:focus {
     background-color: #FBFBFB;
     color: #1B414B;
 }
 @media screen and (min-width: 768px)
     {
-        .hero-button {
+        .hero-link {
             min-width: 179px;
             height: 52px;
             font-size: 18px;
