@@ -1,0 +1,120 @@
+
+.title-section-review {
+    max-width: 335px;
+    color: #FBFBFB;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    margin-bottom: 25px;
+    margin-right:  auto;
+    margin-left: auto;
+}
+
+.text-section-review {
+    color: #FBFBFB;
+    opacity: 0.4;
+    text-align: center;
+    margin: auto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.16;
+    letter-spacing: -0.02em;
+    margin-bottom: 40px;
+}
+.name-review-person {
+    color: #040306;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+}
+.text-review-client {
+    color: rgba(4, 3, 6, 0.40);
+    text-align: center;
+    width: 303px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+    margin: auto;
+}
+.list-item-section-review {
+    width: 335px;
+    padding: 32px 8px;
+    border-radius: 24px;
+    background: #FBFBFB;
+}
+.review-client-photo {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 24px;
+}
+.review-2 {
+    display: none;
+}
+.review-3 {
+    display: none;
+}
+.name-review-box {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 768px) {
+    .title-section-review {
+        max-width: 704px;
+        font-size: 48px;
+    }
+    .text-section-review {
+        font-size: 14px;
+        line-height: 1.28;
+        margin-bottom: 75px;
+        max-width: 571px;
+    }
+    .text-review-client{
+        width: 304px;
+    }
+    .text-review-second-client{
+        width: 296px;
+    }
+
+    .list-section-review {
+        display: flex;
+        gap: 32px;
+    }
+    .review-2 {
+        display: block;
+    }
+    .list-item-section-review {
+        width: calc((100% - 32px) / 2);
+    }
+    
+}
+
+@media only screen and (min-width: 1280px) {
+    .title-section-review {
+        max-width: 854px;
+    }
+    .review-3 {
+        display: block;
+    }
+    .list-section-review {
+        gap: 26px;
+    }
+    .list-item-section-review {
+        width: calc((100% - 52px) / 3);
+        padding: 32px 28px;
+    }
+    
+    .text-review-client{
+        width: 100%;
+    }
+    .text-review-third-client{
+        width: 293px;
+    }
+}
+
