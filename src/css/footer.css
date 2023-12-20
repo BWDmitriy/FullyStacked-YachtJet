@@ -87,6 +87,7 @@ letter-spacing: -0.03em;
   margin-right: 4px;
    /* max-width: 66px; */
   min-height: 40px;
+  display: flex;
 
 }
 
