@@ -1,0 +1,53 @@
+.about-us-section {}
+
+.about-us-container {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 24px;
+  background: #FBFBFB;
+  padding: 50px 50px 100px 50px;
+
+}
+
+.about-us-title {
+  width: 537px;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #1B414B;
+}
+
+.about-us-information {
+    display: flex;
+width: 404px;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+flex-shrink: 0;
+}
+
+.about-us-text {
+  width: 404px;
+  font-family: Inter;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #1B414B;
+}
+
+.about-us-paragraph {
+  width: 404px;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  opacity: 0.4;
+  color: #040306;
+}
