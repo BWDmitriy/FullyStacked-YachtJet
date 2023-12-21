@@ -1,0 +1,116 @@
+.our-yachts {
+    background-color: #0E1823;
+}
+
+.yacht-description,
+.name-yacht-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.yacht-description-list {
+    display: flex;
+    flex-direction: column
+}
+
+.list-item-second {
+    display: none;
+}
+
+.list-item-third {
+    display: none;
+}
+
+.tittle-our-yachts {
+    color: #FBFBFB;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    width: 303px;
+    margin-bottom: 40px;
+}
+
+.list-yachts {
+    justify-content: center;
+    background-color: #FBFBFB;
+    border-radius: 24px;
+    margin-bottom: 40px;
+}
+
+.name-yacht {
+    color: #1B414B;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.65;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+}
+
+.style-yacht {
+    color: #040306;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.yacht-description-list-title {
+    color: #040306;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.65;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.yacht-description-list {
+    color: #040306;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.65;
+    letter-spacing: 0.03em;
+}
+
+.name-yacht-box,
+.yacht-description {
+    max-width: 270px;
+    padding: 16px;
+}
+
+.line-box::after {
+    content: "";
+    display: block;
+    width: 272px;
+    height: 1px;
+    background: #0403061a;
+    position: absolute;
+    bottom: -1px;
+}
+
+.rental-button {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FBFBFB;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    padding: 14px 32px;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 1px solid rgba(251, 251, 251, 0.35);
+}
+
+.rental-button:hover,
+.rental-button:focus {
+    background: #FBFBFB;
+    color: #1B414B;
+}
