@@ -8,10 +8,7 @@
     justify-content: space-between;
 }
 
-.yacht-description-list {
-    display: flex;
-    flex-direction: column
-}
+
 
 .list-item-second {
     display: none;
@@ -36,16 +33,23 @@
 
 .list-yachts {
     justify-content: center;
+    margin-bottom: 40px;
+}
+
+.list-item-first {
     background-color: #FBFBFB;
     border-radius: 24px;
-    margin-bottom: 40px;
+    padding: 16px;
+    margin-right: auto;
+    margin-left: auto;
+
 }
 
 .name-yacht {
     color: #1B414B;
     font-size: 14px;
     font-weight: 500;
-    line-height: 1.65;
+    line-height: 1.18;
     letter-spacing: -0.04em;
     text-transform: uppercase;
 }
@@ -54,33 +58,42 @@
     color: #040306;
     font-size: 12px;
     font-weight: 400;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    opacity: 0.4;
 }
 
 .yacht-description-list-title {
     color: #040306;
     font-size: 14px;
     font-weight: 400;
-    line-height: 1.65;
+    line-height: 1.18;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    opacity: 0.4;
 }
 
 .yacht-description-list {
+    display: flex;
+        flex-direction: column;
     color: #040306;
     font-size: 14px;
     font-weight: 400;
-    line-height: 1.65;
+    line-height: 1.18;
     letter-spacing: 0.03em;
 }
 
 .name-yacht-box,
 .yacht-description {
-    max-width: 270px;
     padding: 16px;
 }
+
+.name-yacht-box {
+    position: relative;
+    align-items: center;
+}
+
 
 .line-box::after {
     content: "";
@@ -114,3 +127,41 @@
     background: #FBFBFB;
     color: #1B414B;
 }
+
+@media only screen and (min-width: 768px) {
+    .list-yachts {
+        display: flex;
+        justify-content: center;
+        gap: 32px;
+    }
+
+    .list-item-second {
+        display: list-item;
+        background-color: #FBFBFB;
+        border-radius: 24px;
+        padding: 16px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .name-yacht {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+
+    .list-item-first .list-item-second {
+        width: calc((100% - 32px) / 2);
+    }
+
+    .style-yacht {
+        font-size: 13px;
+        line-height: 1.18;
+    }
+
+
+}
+
+
+
+
+@media only screen and (min-width: 1280px) {}
