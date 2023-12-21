@@ -16,6 +16,7 @@ width: 100%;
         max-width: 768px;
         padding-top: 204px;
         padding-bottom: 215px;
+        background-image: url(../img/hero/hero_tab.jpg);
     }
 }
 @media screen and (min-width: 1280px) {
@@ -23,6 +24,7 @@ width: 100%;
         max-width: 1280px;
         padding-top: 155px;
         padding-bottom: 180px;
+        background-image: url(../img/hero/hero_desk1.jpg);
     }
 }
 .hero-title {
