@@ -22,6 +22,7 @@
     line-height: 1.16;
     letter-spacing: -0.02em;
     margin-bottom: 40px;
+    max-width: 335px;
 }
 .name-review-person {
     color: #040306;
@@ -34,7 +35,7 @@
 .text-review-client {
     color: rgba(4, 3, 6, 0.40);
     text-align: center;
-    width: 303px;
+    max-width: 303px;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.4;
@@ -42,7 +43,7 @@
     margin: auto;
 }
 .list-item-section-review {
-    width: 335px;
+    max-width: 335px;
     padding: 32px 8px;
     border-radius: 24px;
     background: #FBFBFB;
@@ -51,6 +52,7 @@
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 24px;
+    height: 56px;
 }
 .review-2 {
     display: none;
@@ -76,10 +78,10 @@
         max-width: 571px;
     }
     .text-review-client{
-        width: 304px;
+        max-width: 304px;
     }
     .text-review-second-client{
-        width: 296px;
+        max-width: 296px;
     }
 
     .list-section-review {
@@ -90,7 +92,7 @@
         display: block;
     }
     .list-item-section-review {
-        width: calc((100% - 32px) / 2);
+        max-width: calc((100% - 32px) / 2);
     }
     
 }
@@ -106,15 +108,15 @@
         gap: 26px;
     }
     .list-item-section-review {
-        width: calc((100% - 52px) / 3);
+       max-width: calc((100% - 52px) / 3);
         padding: 32px 28px;
     }
     
     .text-review-client{
-        width: 100%;
+        max-width: 100%;
     }
     .text-review-third-client{
-        width: 293px;
+        max-width: 293px;
     }
 }
 
