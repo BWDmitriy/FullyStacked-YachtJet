@@ -111,4 +111,12 @@
     justify-content: space-between;
   }
 
+  .about-us-text {
+    width: 355px;
+  }
+
+  .about-us-paragraph {
+    width: 355px;
+  }
+
 }
