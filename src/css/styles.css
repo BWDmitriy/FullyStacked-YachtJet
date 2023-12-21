@@ -31,7 +31,7 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-.section {
+section {
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -50,16 +50,17 @@
   .container {
     max-width: 375px;
   }
-  .section {
-    padding-top: 75px;
-    padding-bottom: 75px;
-    }
+
 }
 
 @media only screen and (min-width: 768px) {
   .container {
     max-width: 768px;
     padding: 0 32px;
+  }
+  section {
+    padding-top: 75px;
+    padding-bottom: 75px;
   }
 }
 
