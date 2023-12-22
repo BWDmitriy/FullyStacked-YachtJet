@@ -13,6 +13,8 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+
 /* =================/common styles========================= */
 
 
@@ -66,7 +68,7 @@
   margin-top: 18px;
 }
 
-.mobile-yacht-photo {
+.yacht-photo {
   border-radius: 24px;
 }
 
@@ -140,9 +142,25 @@ margin-bottom: 44px;
     flex-wrap: wrap;
     gap: 32px;
   }
-  .advantages-item-text::before {
-    width: 304px;
+ 
+   .advantages-item-text::before {
+  width: 280px;
+}
+}
+/* ============================/DESKTOP STYLE========================================= */
+/* ============================/DESKTOP STYLE(1440)========================================= */
+@media screen and (min-width: 1440px) {
+ 
+  .advantages-list {
+   
+    width: 768px;
+    gap: 44px;
   }
+  .advantages-item-text::before {
+    width: 238px;
+  }
+  .advantages-item-text::before {
+  width: 318px;
+}
  
 }
-/* ============================DESKTOP STYLE========================================= */
