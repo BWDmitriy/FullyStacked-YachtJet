@@ -24,9 +24,12 @@ button {
     background-color: #FBFBFB;
     padding-top: 12px;
     padding-bottom: 13px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     margin-top: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
+    width: 335px;
 }
 .navigation-menu {
     display: none;
@@ -37,8 +40,51 @@ button {
 .page-header-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    padding: 0 20px;
+    margin: 0 auto;
+    min-width: 335px;
 }
+/* =============================== */
+@media only screen and (max-width: 374px) {
+    .page-header-container {
+        max-width: 374px;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    .page-header-container {
+        max-width: 375px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .page-header-container {
+        max-width: 768px;
+        padding: 0 32px;
+        min-width: 704px;
+    }
+    .main-header {
+        width: 704px;
+        margin-top: 32px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .page-header-container {
+        max-width: 1280px;
+        padding: 0 50px;
+        min-width: 1080px;
+    }
+    .main-header {
+        width: 1080px;
+    }
+}
+/* ======================= */
+
+
+
 .logo-navigation {
     color: #1B414B;
     font-family: 'Inter', sans-serif;
@@ -49,9 +95,6 @@ button {
     letter-spacing: -0.03em;
 }
 @media screen and (max-width: 767px) {
-    .main-header {
-        max-width: 375px;
-    }
     
     .mobile-menu-open-btn {
             background-color: transparent;
@@ -62,25 +105,15 @@ button {
             stroke: #1B414B;
             margin-left: auto;
         }
-                
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-        padding-left: 28px;
-        padding-right: 28px;
-    }
     .mobile-menu-open-btn {
         display: none;
     }
     
     .main-header {
-        max-width: 768px;
         padding-bottom: 13px;
-        margin-top: 32px;
-        margin-right: 32px;
-        margin-left: 32px;
     }
     
     .navigation-menu {
@@ -111,27 +144,16 @@ button {
     .navigation-social-list {
         display: flex;
         gap: 8px;
+        margin-left: auto;
     }
     
     .main-navigation {
         display: flex;
         align-items: center;
+        margin-left: auto;
     }
     .logo-navigation {
         font-size: 14px;
     }
 }
 
-@media screen and (min-width: 1280px) {
-    .container {
-        max-width: 1280px;
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-    .main-header {
-        margin-right: 32px;
-        margin-left: 32px;
-        max-width: 1280px;
-    }
-        
-}
