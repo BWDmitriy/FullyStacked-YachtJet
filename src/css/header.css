@@ -1,0 +1,120 @@
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style-type: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-header {
+    border-radius: 8px;
+    border: 1px solid #FBFBFB;
+    background-color: #FBFBFB;
+    padding-top: 12px;
+    padding-bottom: 13px;
+}
+.navigation-menu {
+    display: none;
+}
+.navigation-social-list {
+    display: none;
+}
+.page-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-navigation {
+    color: #1B414B;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.03em;
+}
+@media screen and (max-width: 767px) {
+    
+    .mobile-menu-open-btn {
+            background-color: transparent;
+            border: none;
+            padding: 0;
+            line-height: 0;
+            stroke-width: 2.5px;
+            stroke: #1B414B;
+            margin-left: auto;
+        }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+    .mobile-menu-open-btn {
+        display: none;
+    }
+    
+    .main-header {
+        padding-bottom: 13px;
+    }
+    
+    .navigation-menu {
+        display: flex;
+        align-items: flex-start;
+        gap: 4px;
+    }
+    .navigation-link {
+        border-radius: 8px;
+        background: rgba(27, 65, 75, 0.50);
+        color: #FBFBFB;
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        text-transform: uppercase;
+        padding-top: 15px;
+        padding-right: 25px;
+        padding-bottom: 15px;
+        padding-left: 24px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+    }
+    .navigation-link:hover, .navigation-link:focus {
+        background-color: #1B414B;
+    }
+    .navigation-social-list {
+        display: flex;
+        gap: 8px;
+    }
+    
+    .main-navigation {
+        display: flex;
+        align-items: center;
+    }
+    .logo-navigation {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
