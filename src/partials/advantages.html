@@ -41,12 +41,21 @@
           </p>
           </div>
         </li>
-     
     </ol>
 
     <picture>
+          <source
+        class="yacht-photo"
+        srcset="
+          ./img/advantages/advantages_desk2.jpg,
+          ./img/advantages/advantages_desk2@2x.jpg 2x
+        "
+        media="(min-width: 1440px)"
+        width="540"
+        height="424"
+      />
       <source
-        class="mobile-yacht-photo"
+        class="yacht-photo"
         srcset="
           ./img/advantages/advantages_desk1.jpg,
           ./img/advantages/advantages_desk1@2x.jpg 2x
@@ -56,7 +65,7 @@
         height="424"
       />
       <source
-        class="mobile-yacht-photo"
+        class="yacht-photo"
         srcset="
           ./img/advantages/advantages_tab.jpg,
           ./img/advantages/advantages_tab@2x.jpg
@@ -66,7 +75,7 @@
         height="424"
       />
       <source
-        class="mobile-yacht-photo"
+        class="yacht-photo"
         srcset="
           ./img/advantages/advantages_mob.jpg,
           ./img/advantages/advantages_mob@2x.jpg 2x
@@ -76,7 +85,7 @@
         height="424"
       />
 
-      <img src="./img/advantages/advantages_desk1.jpg"
+      <img  class="yacht-photo" src="./img/advantages/advantages_desk1.jpg"
         alt="view of the yacht inside"
       />
     </picture>
