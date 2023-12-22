@@ -14,7 +14,7 @@
 @import url('./our-yachts.css');
 @import url('./rent-a-yacht.css');
 @import url('./reviews.css');
-
+@import url('./base.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -30,36 +30,4 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-}
-
-.container {
-  padding: 0 20px;
-  margin: 0 auto;
-}
-
-@media only screen and (max-width: 374px) {
-  .container {
-    max-width: 374px;
-  }
-}
-
-@media only screen and (min-width: 375px) {
-  .container {
-    max-width: 375px;
-  }
-    
-}
-
-@media only screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding: 0 32px;
-  }
-}
-
-@media only screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding: 0 50px;
-  }
 }

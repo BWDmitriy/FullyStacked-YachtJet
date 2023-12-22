@@ -13,7 +13,7 @@ p:last-child {
   margin-bottom: 0;
 }
 
-ul {
+ul{
   margin: 0;
   padding: 0;
   list-style: none;
@@ -39,8 +39,4 @@ textarea,
 button {
   font-family: inherit;
   line-height: inherit;
-}
-
-button {
-cursor: pointer;
 }
