@@ -10,13 +10,7 @@ button {
     cursor: pointer;
 }
 
-.container {
-    max-width: 375px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 .main-header {
     border-radius: 8px;
@@ -50,8 +44,8 @@ button {
 }
 @media screen and (max-width: 767px) {
     .main-header {
-        max-width: 375px;
-    }
+            max-width: 375px;
+        }
     
     .mobile-menu-open-btn {
             background-color: transparent;
@@ -67,9 +61,19 @@ button {
 
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 768px;
         padding-left: 28px;
         padding-right: 28px;
+    }
+    .page-header-container {
+        display: flex;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main-header .main-header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
     .mobile-menu-open-btn {
         display: none;
@@ -85,7 +89,9 @@ button {
     
     .navigation-menu {
         display: flex;
-        align-items: flex-start;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
         gap: 4px;
     }
     .navigation-link {
@@ -111,6 +117,18 @@ button {
     .navigation-social-list {
         display: flex;
         gap: 8px;
+        justify-content: flex-end;
+    }
+    
+    .navigation-social-list-link {
+        display: flex;
+        line-height: 0;
+        justify-content: center;
+        align-items: center;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        fill: #1B414B;
     }
     
     .main-navigation {
