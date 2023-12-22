@@ -24,6 +24,9 @@ button {
     background-color: #FBFBFB;
     padding-top: 12px;
     padding-bottom: 13px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 .navigation-menu {
     display: none;
@@ -46,6 +49,9 @@ button {
     letter-spacing: -0.03em;
 }
 @media screen and (max-width: 767px) {
+    .main-header {
+        max-width: 375px;
+    }
     
     .mobile-menu-open-btn {
             background-color: transparent;
@@ -56,6 +62,7 @@ button {
             stroke: #1B414B;
             margin-left: auto;
         }
+                
 }
 
 @media screen and (min-width: 768px) {
@@ -69,7 +76,11 @@ button {
     }
     
     .main-header {
+        max-width: 768px;
         padding-bottom: 13px;
+        margin-top: 32px;
+        margin-right: 32px;
+        margin-left: 32px;
     }
     
     .navigation-menu {
@@ -117,4 +128,10 @@ button {
         padding-left: 30px;
         padding-right: 30px;
     }
+    .main-header {
+        margin-right: 32px;
+        margin-left: 32px;
+        max-width: 1280px;
+    }
+        
 }
