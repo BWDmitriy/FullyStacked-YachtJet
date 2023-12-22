@@ -8,33 +8,8 @@
     margin: 0 auto;
 }
 
-@media only screen and (max-width: 374px) {
-    .container {
-        max-width: 374px;
-    }
-}
 
-@media only screen and (min-width: 375px) {
-    .container {
-        max-width: 375px;
-    }
-
-    .section {
-        padding-top: 75px;
-        padding-bottom: 75px;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-        padding: 0 32px;
-    }
-}
-
-
-
-.rent-modal {
+.rent-section {
     background: #0E1823;
 }
 
@@ -42,7 +17,7 @@
     font-size: 28px;
     font-weight: 500;
     line-height: 1;
-        /* 100% */
+    /* 100% */
     letter-spacing: -0.02em;
     color: #FBFBFB;
     margin-bottom: 40px;
@@ -65,9 +40,10 @@
     font-family: Inter;
     font-size: 12px;
     line-height: 1.17;
-        /* 116.667% */
+    /* 116.667% */
     margin-bottom: 18px;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .rent-form-field-input:focus {
@@ -78,7 +54,7 @@
 .rent-form-field-input::placeholder {
     font-size: 12px;
     line-height: 1.17;
-        /* 116.667% */
+    /* 116.667% */
     color: rgba(251, 251, 251, 0.40);
 }
 
@@ -104,7 +80,8 @@
     border: 1px solid rgba(251, 251, 251, 0.20);
     outline: 0px solid transparent;
     resize: none;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .rent-form-comment:focus {
@@ -118,7 +95,6 @@
     /* 116.667% */
     color: rgba(251, 251, 251, 0.40);
 }
-
 
 .rent-form-submit-btn {
     display: inline-flex;
@@ -146,10 +122,147 @@
 }
 
 .rent-img {
-    display: flex;
+    display: block;
     max-width: 100%;
     height: auto;
     flex-shrink: 0;
-    background: url(<path-to-image>), lightgray -197.931px -2.822px / 187.774% 107.967% no-repeat;
-    /*overflow: hidden;*/
+    background: lightgray -197.931px -2.822px / 187.774% 107.967% no-repeat;
+    border: none;
+    border-radius: 24px;
+    overflow: hidden;
 }
+
+
+@media only screen and (max-width: 374px) {
+    
+    .container {
+        max-width: 374px;
+    }
+
+        
+}
+
+@media only screen and (min-width: 375px) {
+    .container {
+        max-width: 375px;
+    }
+
+    
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 32px;
+    }
+
+    .section {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    .rent-title {
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 1;
+        /* 100% */
+        letter-spacing: -0.02em;
+        color: #FBFBFB;
+        margin-bottom: 50px;
+    }
+        
+    .rent-modal {
+        /*min-width: 472px;*/
+        padding: 0 116px;
+    }
+        
+    .rent-form-field-input {
+        width: 472px;
+        height: 54px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        font-size: 14px;
+        line-height: 1.29;
+            /* 128.571% */
+    }
+        
+    .rent-form-field-input::placeholder {
+        font-size: 14px;
+        line-height: 1.29;
+            /* 128.571% */
+    }
+    
+    .comment-container {
+        margin-bottom: 50px;
+    }
+
+    .rent-form-comment {
+        width: 472px;
+        height: 116px;
+        padding: 18px 18px;
+        font-size: 14px;
+        line-height: 1.29;
+            /* 128.571% */
+    }
+     
+    .rent-form-comment::placeholder {
+        font-size: 14px;
+        line-height: 1.29;
+        /* 128.571% */
+    }
+
+    .rent-form-submit-btn {
+        display: inline-flex;
+        margin-bottom: 100px;
+        min-width: 194px;
+        height: 56px;
+        padding: 18px 75px;
+        font-size: 18px;
+        line-height: 1.1;
+            /* 110% */
+    }
+        
+    .rent-img {
+        height: 534px;
+        flex-shrink: 0;
+    }
+    
+}
+
+@media only screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        padding: 0 50px;
+    }
+
+    .rent-form-submit-btn {
+        margin-bottom: 0;
+    }
+
+    .rent-container {
+        position: relative;
+        display: flex;
+        gap: 50px;
+    }
+
+    .rent-modal {
+        padding: 0;
+        position: absolute;
+        top: 0;
+        right: 50px;
+        width: 472px;
+    }
+
+    .rent-pic {
+        width: 658px;
+        height: 534px;
+        flex-shrink: 0;           
+    }
+
+}
+
+
+
+
+
+
