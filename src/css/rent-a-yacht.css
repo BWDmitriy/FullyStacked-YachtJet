@@ -127,9 +127,9 @@
     height: auto;
     flex-shrink: 0;
     background: lightgray -197.931px -2.822px / 187.774% 107.967% no-repeat;
-    border: none;
     border-radius: 24px;
     overflow: hidden;
+    outline: 0px solid transparent;
 }
 
 
@@ -242,7 +242,6 @@
     .rent-container {
         position: relative;
         display: flex;
-        gap: 50px;
     }
 
     .rent-modal {
@@ -256,9 +255,22 @@
     .rent-pic {
         width: 658px;
         height: 534px;
-        flex-shrink: 0;           
+        flex-shrink: 0;
+        margin-right: 50px;           
     }
 
+}
+
+@media only screen and (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+    }
+
+    .rent-pic {
+        width: 768px;
+        height: 534px;
+        flex-shrink: 0;
+    }
 }
 
 
