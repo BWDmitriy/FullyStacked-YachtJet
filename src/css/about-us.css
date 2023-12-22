@@ -118,5 +118,15 @@
   .about-us-paragraph {
     width: 355px;
   }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-us-text {
+    width: 395px;
+  }
+
+  .about-us-paragraph {
+    width: 405px;
+  }
 
 }
