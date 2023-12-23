@@ -98,7 +98,6 @@
 
 .rent-form-submit-btn {
     display: inline-flex;
-    margin-bottom: 80px;
     min-width: 122px;
     height: 46px;
     padding: 14px 44px;
@@ -119,6 +118,10 @@
 .rent-form-submit-btn:focus {
     color: #1B414B;
     background: #FBFBFB;
+}
+
+.rent-modal {
+    margin-bottom: 80px;
 }
 
 .rent-img {
@@ -172,7 +175,7 @@
     }
         
     .rent-modal {
-        /*min-width: 472px;*/
+        margin-bottom: 100px;
         padding: 0 116px;
     }
         
@@ -213,7 +216,6 @@
 
     .rent-form-submit-btn {
         display: inline-flex;
-        margin-bottom: 100px;
         min-width: 194px;
         height: 56px;
         padding: 18px 75px;
