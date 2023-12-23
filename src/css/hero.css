@@ -34,7 +34,7 @@ width: 100%;
     line-height: 1;
     letter-spacing: -0.02em;
     margin: 0 0 24px 0;
-    width: 335px;
+    max-width: 335px;
     text-align: center;
 }
 @media screen and (min-width: 768px)
