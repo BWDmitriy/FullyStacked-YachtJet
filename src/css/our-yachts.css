@@ -201,18 +201,16 @@
 }
 
 /* @media only screen and (min-width: 1440px) {
-    .container {
-        max-width: 1440px;
+    .list-yachts {
+        gap: 32px;
     }
 
-        .list-yachts {
-            gap: 32px;
-        }
-                .list-item-first .list-item-second .list-item-third {
-                    width: calc((100% - 32px) / 3);
-                }
-.line-box::after {
-    width: 328px;
-}
+    .list-item-first .list-item-second .list-item-third {
+        width: calc((100% - 32px) / 3);
+    }
+
+    .line-box::after {
+        width: 328px;
+    }
 
 } */
