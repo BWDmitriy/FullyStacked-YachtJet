@@ -73,14 +73,14 @@
   } 
 
   .about-us-section {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding-top: 50px;
     margin-left: 32px;
     margin-right: 32px;
     margin-bottom: 75px;
-    max-width: 768px;
+    max-width: 704px;
   }
 
   .about-us-title {
@@ -103,7 +103,7 @@
 
 @media screen and (min-width: 1280px) {
   .about-us-section {
-    max-width: 1280px;
+    max-width: 1180px;
     margin: 0 50px 75px;
   }
 
@@ -133,7 +133,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .about-us-container {
+  .about-us-section {
     width: 1340px;
   }
 
