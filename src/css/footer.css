@@ -54,6 +54,7 @@ text-align: center;
   /* .link-menu {
     margin-right: 30px;
   } */
+  
   .style-btn-footer {
       width: 66px;
   }
@@ -141,7 +142,7 @@ justify-content: center;
 
 .link-icon{
   fill: rgba(251, 251, 251, 1);
-  stroke: black;
+  /* stroke: black; */
 }
 
 .link-link-footer:hover .link-icon {
