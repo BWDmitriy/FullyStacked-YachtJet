@@ -20,6 +20,7 @@ button {
 
 .main-header {
     position: absolute;
+    top: 20px;
     left: 0;
     right: 0;
     border-radius: 8px;
@@ -27,9 +28,7 @@ button {
     background-color: #FBFBFB;
     padding-top: 12px;
     padding-bottom: 13px;
-    margin: 0 auto;
-    margin-top: 20px;
-    width: 335px;
+    margin: 0 auto 0;
 }
 .navigation-menu {
     display: none;
@@ -42,7 +41,7 @@ button {
     align-items: center;
     padding: 0 20px;
     margin: 0 auto;
-    min-width: 335px;
+    min-width: 320px;
 }
 @media only screen and (max-width: 374px) {
     .page-header-container {
@@ -57,7 +56,7 @@ button {
 @media only screen and (min-width: 768px) {
     .page-header-container {
         max-width: 768px;
-        padding: 0 32px;
+        padding: 0 28px;
         min-width: 704px;
     }
     .main-header {
@@ -68,7 +67,7 @@ button {
 @media only screen and (min-width: 1280px) {
     .page-header-container {
         max-width: 1280px;
-        padding: 0 50px;
+        padding: 0 30px;
         min-width: 1080px;
     }
 
@@ -86,6 +85,9 @@ button {
     letter-spacing: -0.03em;
 }
 @media screen and (max-width: 767px) {
+    .main-header {
+        max-width: 335px;
+    }
     
     .mobile-menu-open-btn {
             background-color: transparent;
@@ -106,7 +108,8 @@ button {
     }
     
     .main-header {
-        padding-bottom: 13px;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
     
     .navigation-menu {
@@ -121,6 +124,7 @@ button {
         text-align: center;
         font-family: 'Inter', sans-serif;
         font-size: 9px;
+        display: block;
         font-style: normal;
         font-weight: 400;
         line-height: 130%;
@@ -139,6 +143,9 @@ button {
         gap: 8px;
         margin-left: auto;
     }
+    .navigation-social-list-link {
+        display: flex;
+    }
     
     
     .main-navigation {
@@ -148,6 +155,16 @@ button {
     }
     .logo-navigation {
         font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .page-header-container {
+        max-width: 1440px;
+        min-width: 1240px;
+    }
+    .main-header {
+        width: 1240px;
     }
 }
 
