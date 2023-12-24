@@ -14,6 +14,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 
   
+  <script type="module" crossorigin src="/FullyStacked-YachtJet/commonHelpers.js"></script>
   <link rel="stylesheet" href="/FullyStacked-YachtJet/assets/index-988e097b.css">
 </head>
 
@@ -34,7 +35,7 @@
                 </li>
             </ul>
         </nav>
-        <button class="mobile-menu-open-btn" type="button">
+        <button class="mobile-menu-open-btn modal-open" type="button">
             <svg class="mobile-menu-open-btn-icon" width="28" height="28" aria-label="mobile menu open icon">
                 <use href="/FullyStacked-YachtJet/assets/icons-b4895339.svg#icon-ci_menu-duo"></use>
             </svg>
@@ -439,13 +440,13 @@
     </div>
 </footer>
 
-  <div class="mobile-menu-wrapper">
+  <div class="mobile-menu-wrapper" id="mobile-menu">
     <!--  is-open -->
 
     <div class="container mobile-menu-container">
         <div class="mobile-menu-logo">
             <a class="logo-mob link " href="./index.html">yachtjet</a>
-            <button class="mobile-menu-close-btn" type="button">
+            <button class="mobile-menu-close-btn modal-close" type="button">
                 <svg class="mobile-menu-close-btn-icon" width="28" height="28" aria-label="mobile menu close icon">
                     <use href="/FullyStacked-YachtJet/assets/icons-b4895339.svg#icon-ion_close"></use>
                 </svg>
@@ -453,13 +454,13 @@
         </div>
         <nav class="mobile-menu-navigation">
             <ul class="mobile-menu list">
-                <li class="mobile-menu-item mob-menu-current">
+                <li class="mobile-menu-item mob-menu-current modal-close">
                     <a class="mobile-menu-link link current" href="#about-us">About</a>
                 </li>
-                <li class="mobile-menu-item">
+                <li class="mobile-menu-item modal-close">
                     <a class="mobile-menu-link link" href="#our-yachts">Yachts</a>
                 </li>
-                <li class="mobile-menu-item">
+                <li class="mobile-menu-item modal-close">
                     <a class="mobile-menu-link link" href="#reviews">Reviews</a>
                 </li>
             </ul>
@@ -490,6 +491,7 @@
         </ul>
     </div>
 </div>
+  
 </body>
 
 </html>
