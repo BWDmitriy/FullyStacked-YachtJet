@@ -200,7 +200,7 @@
 
 }
 
-/* @media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1440px) {
     .list-yachts {
         gap: 32px;
     }
@@ -213,4 +213,4 @@
         width: 328px;
     }
 
-} */
+}

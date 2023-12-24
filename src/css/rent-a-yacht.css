@@ -263,7 +263,7 @@
 
 }
 
-/*@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1440px) {
     .container {
         max-width: 1440px;
     }
@@ -278,7 +278,7 @@
         height: 534px;
         flex-shrink: 0;
     }
-}*/
+}
 
 
 
