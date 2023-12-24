@@ -33,15 +33,14 @@
 
 .list-yachts {
     margin-bottom: 40px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .list-item-first {
     background-color: #FBFBFB;
     border-radius: 24px;
     padding: 16px;
-    margin-right: auto;
-    margin-left: auto;
-
 }
 
 .name-yacht {
@@ -134,13 +133,17 @@
         font-size: 48px;
         max-width: 645px;
     }
-.rental-button {
-    max-width: 179px;
-    font-size: 18px;
-    line-height: 1.1;
-    padding: 16px;
-}
+
+
+    .rental-button {
+        max-width: 179px;
+        font-size: 18px;
+        line-height: 1.1;
+        padding: 16px;
+    }
+
     .list-yachts {
+        margin-bottom: 50px;
         display: flex;
         gap: 32px;
     }
@@ -193,9 +196,9 @@
         width: calc((100% - 25px) / 3);
     }
 
-        .line-box::after {
-            width: 313px;
-        }
+    .line-box::after {
+        width: 313px;
+    }
 
 
 }
@@ -209,8 +212,13 @@
         width: calc((100% - 32px) / 3);
     }
 
+
+
     .line-box::after {
         width: 328px;
     }
+        .list-yachts {
+            max-width: 1240px;
+        }
 
 }
