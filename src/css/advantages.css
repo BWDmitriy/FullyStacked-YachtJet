@@ -14,10 +14,7 @@
   overflow: hidden;
 }
 
-
 /* =================/common styles========================= */
-
-
 
 .advantages-list {
   list-style-type: none;
@@ -35,7 +32,7 @@
   background-color: #1b414b;
   border-radius: 24px;
 }
-.advantages-items-container{
+.advantages-item {
   width: 292px;
 }
 .advantages-item {
@@ -51,10 +48,11 @@
   line-height: 1.17;
   letter-spacing: -0.02em;
   opacity: 0.8;
-  width: 292px;
- 
+
+   max-width: 292px;
+  width: 100%;
 }
-.advantages-first-item-text{
+.advantages-first-item-text {
   width: 238px;
 }
 .advantages-item-text::before {
@@ -75,35 +73,38 @@
 /* ============================MOBILE STYLES========================================= */
 
 @media screen and (max-width: 768px) {
-  .advantages{
+  .advantages {
     padding-top: 40px;
     padding-bottom: 40px;
   }
- 
+
   .advantages-list {
     margin-bottom: 20px;
     padding: 80px 20px;
   }
 
   .advantages-list {
-  font-size: 28px;
-}
+    font-size: 28px;
+  }
 
   .advantages-item-text::before {
-    width: 295px;
+    max-width: 248px;
   }
   .advantages-item-text {
+      max-width: 100%;
+    max-width: 271px;
     font-size: 12px;
+  
   }
-  .advantages-items-container{
-margin-bottom: 44px;
+  .advantages-item {
+    margin-bottom: 44px;
   }
 }
 /* ============================/MOBILE STYLES========================================= */
 
 /* ============================TABLET STYLES========================================= */
 @media screen and (min-width: 768px) {
-   .advantages{
+  .advantages {
     padding-top: 75px;
     padding-bottom: 75px;
   }
@@ -116,14 +117,17 @@ margin-bottom: 44px;
     flex-wrap: wrap;
     gap: 44px;
 
-     font-size: 32px;
+    font-size: 32px;
   }
 
   .advantages-item-text::before {
     width: 304px;
   }
   .advantages-item-text {
+    
+     max-width: 292px;
     font-size: 13px;
+    
   }
 }
 /* ============================/TABLET STYLES========================================= */
@@ -142,16 +146,15 @@ margin-bottom: 44px;
     flex-wrap: wrap;
     gap: 32px;
   }
- 
-   .advantages-item-text::before {
-  width: 280px;
-}
+
+  .advantages-item-text::before {
+    width: 280px;
+  }
 }
 /* ============================/DESKTOP STYLE(1440)========================================= */
+
 /* @media screen and (min-width: 1440px) {
- 
   .advantages-list {
-   
     width: 768px;
     gap: 44px;
   }
@@ -159,7 +162,8 @@ margin-bottom: 44px;
     width: 238px;
   }
   .advantages-item-text::before {
-  width: 318px;
+    width: 318px;
+  }
 }
- 
 } */
+
