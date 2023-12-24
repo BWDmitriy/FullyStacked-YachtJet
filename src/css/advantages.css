@@ -151,9 +151,9 @@
     width: 280px;
   }
 }
-/* ============================/DESKTOP STYLE========================================= */
 /* ============================/DESKTOP STYLE(1440)========================================= */
-@media screen and (min-width: 1440px) {
+
+/* @media screen and (min-width: 1440px) {
   .advantages-list {
     width: 768px;
     gap: 44px;
@@ -165,3 +165,5 @@
     width: 318px;
   }
 }
+} */
+
