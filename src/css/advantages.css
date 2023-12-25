@@ -87,9 +87,6 @@
   .advantages-list {
     font-size: 28px;
   }
-  .advantages-item {
-    width: calc((100% - 44px) / 2);
-  }
   .advantages-item-text::before {
     max-width: 248px;
   }
@@ -120,7 +117,9 @@
 
     font-size: 32px;
   }
-
+    .advantages-item {
+      width: calc((100% - 44px) / 2);
+    }
   .advantages-item-text::before {
     width: 304px;
   }
@@ -146,6 +145,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 32px;
+    height: 424px;
   }
   .advantages-item {
     width: calc((100% - 32px) / 2);
