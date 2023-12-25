@@ -32,9 +32,9 @@
   background-color: #1b414b;
   border-radius: 24px;
 }
-.advantages-item {
+/* .advantages-item {
   width: 292px;
-}
+} */
 .advantages-item {
   counter-increment: section;
 }
@@ -49,6 +49,7 @@
   letter-spacing: -0.02em;
   opacity: 0.8;
 
+ margin-top: 18px;
    max-width: 292px;
   width: 100%;
 }
@@ -58,12 +59,12 @@
 .advantages-item-text::before {
   content: '';
   display: block;
-  width: 295px;
+  /* width: 295px; */
   height: 2px;
   border-radius: 18px;
   background-color: rgba(251, 251, 251, 0.1);
   margin-bottom: 18px;
-  margin-top: 18px;
+ 
 }
 
 .yacht-photo {
