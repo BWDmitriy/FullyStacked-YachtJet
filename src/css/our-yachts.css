@@ -8,11 +8,6 @@
     justify-content: space-between;
 }
 
-.yacht-slide img {
-    height: 240px;
-
-}
-
 
 
 .list-item-second {
@@ -36,17 +31,17 @@
     margin-bottom: 40px;
 }
 
-/* .list-yachts {
+.list-yachts {
     margin-bottom: 40px;
     margin-right: auto;
     margin-left: auto;
-} */
+}
 
-/* .list-item-first {
+.list-item-first {
     background-color: #FBFBFB;
     border-radius: 24px;
     padding: 16px;
-} */
+}
 
 .name-yacht {
     color: #1B414B;
@@ -133,30 +128,7 @@
     color: #1B414B;
 }
 
-
-
-
-.yacht-slide {
-    background-color: #FBFBFB;
-    border-radius: 24px;
-    padding: 16px;
-    margin-bottom: 40px;
-}
-
-
-
 @media only screen and (min-width: 768px) {
-
-    .yacht-slide {
-        margin-bottom: 50px;
-    }
-
-    .yacht-slide img {
-        height: 268px;
-
-    }
-
-
     .tittle-our-yachts {
         font-size: 48px;
         max-width: 645px;
@@ -170,11 +142,11 @@
         padding: 16px;
     }
 
-    /* .list-yachts {
+    .list-yachts {
         margin-bottom: 50px;
         display: flex;
         gap: 32px;
-    } */
+    }
 
     .list-item-second {
         display: list-item;
@@ -188,9 +160,9 @@
         line-height: 1.2;
     }
 
-    /* .list-item-first .list-item-second {
+    .list-item-first .list-item-second {
         width: calc((100% - 32px) / 2);
-    } */
+    }
 
     .style-yacht {
         font-size: 13px;
@@ -216,13 +188,13 @@
         max-width: 714px;
     }
 
-    /* .list-yachts {
+    .list-yachts {
         gap: 25px;
-    } */
+    }
 
-    /* .list-item-first .list-item-second .list-item-third {
+    .list-item-first .list-item-second .list-item-third {
         width: calc((100% - 25px) / 3);
-    } */
+    }
 
     .line-box::after {
         width: 313px;
@@ -232,26 +204,21 @@
 }
 
 @media only screen and (min-width: 1440px) {
-
-
-
-
-    /* .list-yachts {
+    .list-yachts {
         gap: 32px;
-    } */
+    }
 
-    /* .list-item-first .list-item-second .list-item-third {
+    .list-item-first .list-item-second .list-item-third {
         width: calc((100% - 32px) / 3);
-    } */
+    }
 
 
 
     .line-box::after {
         width: 328px;
     }
-
-    .yacht-swiper {
-        max-width: 1240px;
-    }
+        .list-yachts {
+            max-width: 1240px;
+        }
 
 }
