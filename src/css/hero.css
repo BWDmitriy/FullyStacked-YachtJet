@@ -10,6 +10,7 @@ margin-right: auto;
 display: block;
 background-image: url(../img/hero/hero_mob.jpg);
 width: 100%;
+background-position: center;
 }
 @media screen and (min-width: 768px) {
     .hero-section {
